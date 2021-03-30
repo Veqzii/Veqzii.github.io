@@ -7,12 +7,6 @@
 @import url('font-awesome.min.css');
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
 
-/*
-	Highlights by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 // Breakpoints.
 
 	@include breakpoints((
@@ -32,7 +26,6 @@
 	$size-padding-lr: 2.5em;
 
 // Reset.
-// Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -105,7 +98,6 @@
 /* Basic */
 
 	// Set box model to border-box.
-	// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
 		html {
 			box-sizing: border-box;
 		}
